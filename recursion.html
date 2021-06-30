@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles2.css">
+
+  <meta charset="utf-8">
+  <title>Code It! - Recursion</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="recursion.html">Recursion</a>
+        <a class="subheading navbar-brand" href="index.html">Home</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid top-box" align="center">
+
+    <div class="row box" align="center">
+      <h2>Easy Problems</h2>
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0086.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1/" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/pascals-triangle/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/pascal-triangle/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0087.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/permutations/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0088.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string-1587115620/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/permutations/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0089.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/discuss/topic/470927" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0090.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/juggler-sequence3930/1/" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="#" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/juggler-sequence/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa2/IMG-20210627-WA0091.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/number-of-paths0926/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/unique-paths/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row box" align="center">
+      <h2>Medium Problems</h2>
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0172.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/generate-parentheses/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0173.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/find-possible-words-phone-digits/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0174.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/the-maze/solution/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/rat-in-a-maze-problem-when-movement-in-all-possible-directions-is-allowed/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0175.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/word-boggle4143/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/word-search/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/boggle-set-2-using-trie/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0176.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/flood-fill/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/flood-fill-algorithm-implement-fill-paint/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0177.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/special-keyboard3018/1/" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/2-keys-keyboard/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="row box" align="center">
+      <h2>Hard Problems</h2>
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0221.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/sudoku-solver/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/sudoku-backtracking-7/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-4 box">
+
+        <img class="img-fluid rounded image" src="Dsa3/IMG-20210627-WA0222.jpg" alt="Mister Marbles head tilt">
+
+        <div class="row">
+          <div class="col box1">
+            <a href="https://practice.geeksforgeeks.org/problems/n-queen-problem/0" class="btn btn-primary "> GeeksForGeeks </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://leetcode.com/problems/n-queens/" class="btn btn-primary "> Leetcode </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col box1">
+            <a href="https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/" class="btn btn-primary "> Editorial </a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

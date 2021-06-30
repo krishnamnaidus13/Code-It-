@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+  padding: 0;
+  margin : 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.navbar
+{
+  background: #82b74b;
+  height:80px;
+  width:100%;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  margin-top: 14px;
+  color: black;
+  padding-left: 50px;
+}
+
+
+.subheading{
+  color:black;
+  font-size: 18px;
+  margin-top:  17px;
+  text-transform: capitalize;
+
+}
+
+
+body{
+  margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+  background-color: #3e4444;
+}
+
+
+
+
+.top
+{
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+.container-fluid
+{
+  background-color: #3e4444;
+  color: white;
+}
+.problems
+{
+  width:100%;
+
+}
+
+
+h2
+{
+  font-size: 35px;
+  color: white;
+
+}
+
+
+
+table{
+  color: #405d27;
+  width:75%;
+  padding-left: 300px;
+  border-color: purple;
+  border-width: thick;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box{
+  padding:20px;
+}
+
+
+
+.cardbox1
+{
+  border-radius: 5px;
+  background-color: #8eba43;
+}
+
+.cardbox1:hover
+{
+  transform: scale(1.05);
+}
+
+
+.cardbox2
+{
+  border-radius: 5px;
+  background-color: #fb6542;
+}
+
+.cardbox2:hover
+{
+  transform: scale(1.05);
+}
+
+.cardbox3
+{
+  border-radius: 5px;
+  background-color: #4cb5f5;
+}
+
+.cardbox3:hover
+{
+  transform: scale(1.05);
+}
+.top-box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.data
+{
+  padding:10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+td
+{
+  text-align: center;
+}
+
+.easy h1
+{
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.box1
+{
+  padding: 10px 0 0 0;
+
+}
+.easy h2
+{
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+
+}
+
+.image1{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+
+}
+
+.image:hover
+{
+  transform: scale(1.10);
+}
+
+
+.btn{
+  min-width: 150px;
+}
+
+.thumbcard{
+
+width: 18rem;
+
+}
+
+@media(max-width: 768px){
+.thumbcard{
+
+width: 18rem;
+
+}
+}
+
+/*
+
+<section class="easy" id="easy">
+
+  <h1>
+    Easy Problems
+  </h1>
+  <h2>Arrays</h2>
+  <div class="problems">
+    <table class="table table-borderless">
+      <tr>
+        <td class="data">S No</td>
+        <td class="data">Problem </td>
+        <td class="data">Leetcode</td>
+        <td class="data">GeeksForGeeks</td>
+
+      </tr>
+      <tr>
+        <td class="data">1</td>
+        <td class="data">Rotate Array </td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+
+      </tr>
+      <tr>
+        <td class="data">1</td>
+        <td class="data">Majority Element</td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+
+      </tr>
+      <tr>
+        <td class="data">1</td>
+        <td class="data">Plus One</td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+        <td class="data"><a href="www.google.com">Link</a></td>
+
+      </tr>
+
+    </table>
+
+
+  </div>
+
+
+</section>
+
+
+
+*/
